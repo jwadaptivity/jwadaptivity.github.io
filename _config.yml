@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A collection of investigations and findings during my career with some advice along the jack.weldon@adaptivity.uk
   Most content will be azure focused with how to utilise it's offerings within your integrations enviroment.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://adaptivity.uk/" # the base hostname & protocol for your site, e.g. http://example.com 
+url: "https://jwadaptivity.github.io/" # the base hostname & protocol for your site, e.g. http://example.com 
 
 # Build settings
 markdown: kramdown
