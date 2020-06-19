@@ -4,8 +4,7 @@ title: "Application Insights best practice"
 date: 2020-06-15 13:00:00 -0000
 categories: azure app-insights
 ---
-
-
+<h1>Application insights</h1>
 This is a guide on general best practice when using Application insights and some best practice guidance when using it alongside Azure Functions apps.
 
 Application insights is an Azure feature offering monitoring and tracking for deployed applications. Its performance footprint is small, as tracking calls are non-blocking and batched with minimal performance overhead. The time and analysis provided far outweighs any minor performance cost it adds.

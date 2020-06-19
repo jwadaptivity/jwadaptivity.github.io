@@ -4,7 +4,7 @@ title: "Azure Function on Kubernetes"
 date: 2020-06-19 13:00:00 -0000
 categories: azure keda
 ---
-<h2>Azure Functions on Kubernetes</h2>
+<h1>Azure Functions on Kubernetes</h1>
 
 This blog post is an explation with a working example of how to containerise your azure function, deploy it to a kubernetes cluster, and scale it automatically using <a href="https://keda.sh/">KEDA</a>. 
 <blockquote style="background: #f5f5fb;padding:12px;"> "KEDA is a Kubernetes-based event-driven autoscaler. KEDA determines how any container in Kubernetes should be scaled based on the number of events that need to be processed." </blockquote>
