@@ -18,7 +18,7 @@ It can automatically detect anomalies, performance issues and provide analytics 
 *   **Host diagnostics** from Docker or Azure.
 *   **Diagnostic trace logs from your app** - so that you can correlate trace events with requests. Custom events and metrics that you write yourself in the client or server code, to track business events.
 
-### Application Health Monitoring
+## Application Health Monitoring
 
 Azure Application Insights allows you to monitor your application and send you alerts when it is either unavailable, experiencing failures, or suffering from performance issues. Common use cases are to create availability test to continuously check the response of the application and send mail to administrators when a problem occurs.
 
@@ -28,7 +28,7 @@ Application insights in not intended to be an audit system and is not suited for
 *   Help continuously to improve performance and usability.
 *   Create custom dashboards and integrate with Power BI
 
-### Performance Diagnostics 
+# Performance Diagnostics 
 
 Application Insights collects telemetry from your application to help analyze its operation and performance. You can use this information to identify problems that may be occurring or to identify improvements to the application that would most impact users.
 
@@ -38,7 +38,7 @@ Application Insights collects telemetry from your application to help analyze it
 *   Identify exceptions for different components of your application
 *   View details of an exception
 
-### Function App Guidance
+# Function App Guidance
 
 Function Apps have application insights built in out of the box and can use the integrated ILogger interface to send exceptions, requests and trace messages. Alternatively you can create an implementation of TelemetryClient, and add custom logic within the logging middle ware. 
 
@@ -55,7 +55,7 @@ Function Apps have application insights built in out of the box and can use the 
 
 **TrackDependency** : Logging the duration and frequency of calls to external components that your app depends on.
 
-#### Recommendations
+## Recommendations
 
 General best practice rules for using the above are:
 
@@ -77,7 +77,7 @@ Some general advice when creating a custom instance of TelemetryClient within a 
 3.  You have to set the telemetry.Context.Operation.\* items each time your function is started to correlate the items together. 
     
 
-#### Outgoing dependencies tracking
+## Outgoing dependencies tracking
 
 You can track your own integrations or an operation that's not supported by Application Insights.
 
