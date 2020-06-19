@@ -1,0 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Integrations and Azure blog
+email: jack.weldon@adaptivity.uk
+description: >- # this means to ignore newlines until "baseurl:"
+  A collection of investigations and findings during my career with some advice along the jack.weldon@adaptivity.uk
+  Most content will be azure focused with how to utilise it's offerings within your integrations enviroment.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://adaptivity.uk/" # the base hostname & protocol for your site, e.g. http://example.com 
+
+# Build settings
+markdown: kramdown
+theme: just-the-docs
+color_scheme: "light"
+plugins:
+  - jekyll-feed
+highlighter: pygments
+search_enabled: false
+logo: "https://adaptivity.uk/wp-content/uploads/2019/01/Adaptivity-Logo-new-yellow_Final-Version.png"
+aux_links:
+  "Adaptivity.uk":
+    - "https://adaptivity.uk/"
+  "LinkedIn":
+    - "https://www.linkedin.com/in/jackweldon/"
+  "Github":
+    - "https://github.com/jackweldon"
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
