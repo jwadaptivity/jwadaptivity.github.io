@@ -29,3 +29,5 @@ This is a blog for some general advice and helpful how-to guides within the Azur
 
 You can reach me on my email (jack.weldon@adaptivity.uk)
 or my [linkedIn](https://www.linkedin.com/in/jackweldon/) profile 
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="220078a9-703c-4645-a83a-1c3968886f89" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
