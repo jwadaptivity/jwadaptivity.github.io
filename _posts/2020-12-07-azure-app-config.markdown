@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Digital Ocean, Terraform and Kubernetes"
-date: 2020-11-01 12:00:00 -0000
-categories: digitalocean terraform kubernetes
+title: "Azure App Config"
+date: 2020-12-07 12:00:00 -0000
+categories: azure app-config
 ---
 <h1>Azure App Configuration Refreshing</h1>
 Azure App Configuration is a fully managed service to centralize the settings of your applications separately from your code, which is very convenient in distributed architectures for updating shared configurations and managing values in one place.
